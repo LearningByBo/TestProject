@@ -1,0 +1,73 @@
+Ôªø2016-10-18 22:16:28.970 T:10840    INFO: Successed to initialize libcurl
+2016-10-18 22:16:28.970 T:10840 WARNING: InitADCache filepath empty
+2016-10-18 22:16:28.971 T:10840   DEBUG: GetModuleFileName  D:\∞Æ∆Ê“’\IQIYI Video\PStyle\
+2016-10-18 22:16:28.972 T:10840    INFO: PingBackManage::Init:  /pingback.db
+2016-10-18 22:16:28.972 T:10840    INFO: PumaMediaplayer Build on [Jun 15 2016 17:41:38]
+2016-10-18 22:16:28.972 T:10840   DEBUG: InitFFmpeg
+2016-10-18 22:16:28.972 T:10840   DEBUG: init FFmpeg begin!
+2016-10-18 22:16:28.979 T:3992   DEBUG: Enter Net Request
+2016-10-18 22:16:28.979 T:3992    INFO: send request: http://data.video.qiyi.com/v.f4v, set timeout: 3
+2016-10-18 22:16:29.174 T:10840   DEBUG: ffmpeg[INFO]: [ffmpeg]:@(#)Id: Verion:1.0.41 Released by iqiyi. Build @May  4 2016 00:25:42 2fdd42e2f58dae148608195fd0420e380e5f621c
+2016-10-18 22:16:29.205 T:10840   DEBUG: init FFmpeg end!
+2016-10-18 22:16:29.215 T:10840 WARNING: StartModule DRM module path: D:\∞Æ∆Ê“’\IQIYI Video\PStyle\Wasabi.dll
+2016-10-18 22:16:29.215 T:3992    INFO: remote server ip: 121.12.108.95, http response code: 200
+2016-10-18 22:16:29.216 T:10840   ERROR: Initialize Dynamic Load  DRM Module Failed: D:\∞Æ∆Ê“’\IQIYI Video\PStyle\Wasabi.dll
+2016-10-18 22:16:29.216 T:3992    INFO: date:Tue, 18 Oct 2016 14:16:31 GMT
+2016-10-18 22:16:29.216 T:10840    INFO: Init HCDN Module Param : (kernel path: nt\, cache path:, cache size:0)
+2016-10-18 22:16:29.216 T:3992    INFO: receive content-length: 147
+2016-10-18 22:16:29.216 T:10840 WARNING: Init HCDN Module:'p2p_kernel_path or local_cache_path not exists!'
+2016-10-18 22:16:29.216 T:3992    INFO: http exit: 0, still_running: 0
+2016-10-18 22:16:29.216 T:3992    INFO: success to send request: http://data.video.qiyi.com/v.f4v
+2016-10-18 22:16:29.216 T:3992    INFO: Location: {"t":"CMNET|GuangDong-120.236.154.205","m":"1","time":"1476800191","v":"2015-12-22 v3.0.26","l":"http://183.232.44.20/v.f4v","z":"guangzhou_cmnet"}
+2016-10-18 22:16:29.224 T:10840 WARNING: HCDN StartModule...
+2016-10-18 22:16:29.224 T:10840 WARNING: CHCDNControl::StartModule module path: D:\∞Æ∆Ê“’\IQIYI Video\PStyle\HCDNProxy.dll
+2016-10-18 22:16:29.232 T:3992    INFO: ParseBitstreamLimit request bs limit 0, CMNET|GuangDong
+2016-10-18 22:16:29.232 T:3992   DEBUG: CurlHttpLoader::Close, 0
+2016-10-18 22:16:29.232 T:3992   DEBUG: CurlHttpLoader::Close, 1
+2016-10-18 22:16:29.232 T:3992   DEBUG: CurlHttpLoader::Close, 3
+2016-10-18 22:16:29.232 T:3992   DEBUG: Enter Net Request
+2016-10-18 22:16:29.233 T:3992    INFO: send request: http://puma.api.iqiyi.com/config/fetch?platform=pc&brand=2, set timeout: 3
+2016-10-18 22:16:29.386 T:10840 WARNING: HCDN StartModule Success!
+2016-10-18 22:16:29.556 T:10840    INFO: Init HCDN Module Param : (kernel path: nt\, cache path:, cache size:0)
+2016-10-18 22:16:29.556 T:10840 WARNING: Init HCDN Module:'p2p_kernel_path or local_cache_path not exists!'
+2016-10-18 22:16:30.439 T:3992    INFO: remote server ip: 106.38.219.35, http response code: 200
+2016-10-18 22:16:30.439 T:3992    INFO: date:Tue, 18 Oct 2016 14:16:30 GMT
+2016-10-18 22:16:30.594 T:3992    INFO: http exit: 0, still_running: 0
+2016-10-18 22:16:30.594 T:3992    INFO: success to send request: http://puma.api.iqiyi.com/config/fetch?platform=pc&brand=2
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: setting = 1
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: iqiyi_p2p_max_bitstream = 12
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: pps_p2p_first = false
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: pps_p2p_max_bitstream = 5
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: max_cache_file_size = 4096
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: pps_p2p_time_out = 15
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: hcdn_time_out = 15
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: iqiyi_p2p_time_out = 15
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: vip_upload = false
+2016-10-18 22:16:30.607 T:3992    INFO: CONFIG: log_level = 1
+2016-10-18 22:16:30.608 T:3992    INFO: CONFIG: cdn_request_block_size = 8
+2016-10-18 22:16:30.631 T:3992    INFO: CONFIG: max_memory_usage = 128
+2016-10-18 22:16:30.631 T:3992    INFO: CONFIG: post_process = true
+2016-10-18 22:16:30.631 T:3992    INFO: CONFIG: ad_timeout_when_local = 2
+2016-10-18 22:16:30.631 T:3992    INFO: CONFIG: have_2g3g_ad_when_local = false
+2016-10-18 22:16:30.631 T:3992    INFO: CONFIG: upload_log_when_errors = |all|
+2016-10-18 22:16:30.631 T:3992    INFO: CONFIG: upload_log_line_count = 500
+2016-10-18 22:16:30.631 T:3992    INFO: CONFIG: min_buffer_time = 3
+2016-10-18 22:16:30.632 T:3992   DEBUG: CurlHttpLoader::Close, 0
+2016-10-18 22:16:30.632 T:3992   DEBUG: CurlHttpLoader::Close, 1
+2016-10-18 22:16:30.632 T:3992   DEBUG: CurlHttpLoader::Close, 3
+2016-10-18 22:16:30.632 T:3992   DEBUG: CThread::StopThread, [3992] Action End
+2016-10-18 22:17:38.353 T:10840 WARNING: HCDN StopModule...
+2016-10-18 22:17:38.366 T:10840   DEBUG: UnLoad Audio Engine
+2016-10-18 22:17:38.366 T:10840   DEBUG: Previous line repeats 1 times.
+2016-10-18 22:17:38.366 T:10840   DEBUG: UnLoad Audio Engine end
+2016-10-18 22:17:38.366 T:10840   DEBUG: UnInitFFmpeg
+2016-10-18 22:17:38.366 T:10840   DEBUG: Unloading FFmpeg dll begin!
+2016-10-18 22:17:38.366 T:10840   DEBUG: Unloading FFmpeg dll end!
+2016-10-18 22:17:38.366 T:10840   DEBUG: CurlHttpLoader::Close, 0
+2016-10-18 22:17:38.366 T:10840   DEBUG: CurlHttpLoader::Close, 1
+2016-10-18 22:17:38.366 T:10840   DEBUG: CurlHttpLoader::Close, 3
+2016-10-18 22:17:38.387 T:6024   DEBUG: Pingback exit!
+2016-10-18 22:17:38.387 T:6024   DEBUG: CThread::StopThread, [6024] Action End
+2016-10-18 22:17:38.387 T:10840   DEBUG: CurlHttpLoader::Close, 0
+2016-10-18 22:17:38.387 T:10840   DEBUG: CurlHttpLoader::Close, 1
+2016-10-18 22:17:38.387 T:10840   DEBUG: CurlHttpLoader::Close, 3
